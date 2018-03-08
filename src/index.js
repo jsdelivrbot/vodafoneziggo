@@ -7,7 +7,7 @@ const App = () => {
   return (
       <a-scene>
         <a-sphere src="../img/campagne-banner-4g.jpg" rotation="0 90 0" position="3 2.25 -5" radius="1.20">
-          <a-animation attribute="rotation" fill="forwards" easing="linear" dur="10000" from="0 0 0" to="0 360 0" repeat="indefinite"></a-animation>
+          <a-animation attribute="rotation" fill="forwards" easing="linear" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite"></a-animation>
         </a-sphere>
 
         <a-assets>
